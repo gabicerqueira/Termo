@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #736268;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-coluna{
+    background-color: rgb(93, 80, 85);
+    font: 700 30px 'Verdana', sans-serif;
+    width: 50px;
+    height: 48px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    border-radius: 5px;
+    color: white;
+}
+
+.div-linha{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.certo{
+    background-color: rgb(77, 180, 117);
+}
+
+.errado{
+    background-color: rgb(180, 77, 77);
+}
+
+.deslocado{
+    background-color: rgb(181, 177, 72);
+}
+
+h1{
+    font: 700 30px 'Verdana', sans-serif;
+    color: white;
+    margin: 50px;
+}
+
+button {
+    background-color: rgb(69, 61, 64);
+    color: white;
+    font: 700 24px 'Verdana', sans-serif;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 2px;
+}
+
+.teclado-linha{
+    display: flex;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: rgb(55, 48, 51);
+}
